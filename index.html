@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electronic Diversity for SRS</title>
+        <link rel="shortcut icon" href="/images/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header class="top ">
+            <div class="menu role">
+                <img width="150px" src="/images/logo.jpg" alt="SRS Flag">
+                <div class="twoSection">
+                    <h6></h6>
+                    D.D.S. Department of State</h6>
+                <span>Bureau of Consular Affairs</span>
+            </div>
+        </div>
+        <div class="role">
+            <h6>Electronic Diversity Visa </h6>
+            <span> Applicant Entry System: 01.00</span>
+
+        </div>
+    </header>
+
+    <div class="container role">
+        <h3>Electronic Diversity Visa Entry Form</h3>
+            <p>OMB Control Number: 1405-0153 <br>
+            Form: DS-5501 <br>
+            Expires: 08/31/2025 <br>
+            Estimated Burden: 30 minutes</p>
+    </div>
+
+    <div class="partOne role">
+        <h3 style="text-align: center;"> Part One - Entrant Information</h3>
+    </div>
+
+    <!-- PERSONAL INFO -->
+    <p class="paragraph role">1. Name</p>
+    <div class="personal role">
+
+        <div class="sub">
+
+            <label for="#"> Last/Family Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="sub">
+
+            <label for="#"> First Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="sub">
+
+            <label for="#"> Middle Name </label>
+            <input type="text" name="name" id="name">
+        </div>
+
+    </div>
+
+    <!-- part two -->
+    <p class="paragraph role">2. Gender</p>
+    <div class="personal role">
+
+        <div class="sub-section">
+            <div>
+                <label for="#"> Male 👨‍💼</label>
+                <input type="radio" name="gender" id="gender">
+            </div>
+            <div>
+                <label for="#"> Female 👩‍🎤</label>
+                <input type="radio" name="gender" id="gender">
+            </div>
+        </div>
+    </div>
+    <!-- part three -->
+    <p class="paragraph role">3. Birth Date</p>
+    <div class="personal role">
+
+        <div class="sub-section">
+            <div>
+                <label for="month">Month</label>
+                <input type="number" id="month" placeholder="mm" min="1"
+                    max="12"
+                    style="width: 80px;" required>
+            </div>
+            <div>
+                <label for="day">Day</label>
+                <input type="number" id="day" placeholder="dd" min="1" max="31"
+                    style="width: 80px;" required>
+            </div>
+            <div>
+                <label for="year">Year</label>
+                <input type="number" id="year" placeholder="yyyy" min="1900"
+                    max="2100"
+                    style="width: 120px;" required>
+            </div>
+
+        </div>
+    </div>
+    <!-- part four -->
+    <p class="paragraph role">4. City Where You Were Born</p>
+    <div class="personal role">
+
+        <div class="sub-section">
+            <div class="birth">
+                <p>Enter Birth City Only. Do not enter
+                    District/County/Province/State.
+                    <br> Birth City</p>
+                <input type="text" id="month" name="name"
+                    style="width: 200px; padding: 10px;" required>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- part five -->
+    <p class="paragraph role">5. City Where You Were Born</p>
+    <div class="personal role">
+        <select id="country" name="country" required>
+            <option value>Select Country</option>
+            <option value="afghanistan">Afghanistan</option>
+            <option value="albania">Albania</option>
+            <option value="algeria">Algeria</option>
+            <option value="andorra">Andorra</option>
+            <option value="angola">Angola</option>
+            <option value="antigua_and_barbuda">Antigua and Barbuda</option>
+            <option value="argentina">Argentina</option>
+            <option value="armenia">Armenia</option>
+            <option value="australia">Australia</option>
+            <option value="austria">Austria</option>
+            <option value="azerbaijan">Azerbaijan</option>
+            <option value="bahamas">Bahamas</option>
+            <option value="bahrain">Bahrain</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="barbados">Barbados</option>
+            <option value="belarus">Belarus</option>
+            <option value="belgium">Belgium</option>
+            <option value="belize">Belize</option>
+            <option value="benin">Benin</option>
+            <option value="bhutan">Bhutan</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="bosnia_and_herzegovina">Bosnia and
+                Herzegovina</option>
+            <option value="botswana">Botswana</option>
+            <option value="brazil">Brazil</option>
+            <option value="brunei">Brunei</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="burkina_faso">Burkina Faso</option>
+            <option value="burundi">Burundi</option>
+            <option value="cabo_verde">Cabo Verde</option>
+            <option value="cambodia">Cambodia</option>
+            <option value="cameroon">Cameroon</option>
+            <option value="canada">Canada</option>
+            <option value="central_african_republic">Central African
+                Republic</option>
+            <option value="chad">Chad</option>
+            <option value="chile">Chile</option>
+            <option value="china">China</option>
+            <option value="colombia">Colombia</option>
+            <option value="comoros">Comoros</option>
+            <option value="congo">Congo</option>
+            <option value="congo_democratic_republic">Congo (Democratic
+                Republic)</option>
+            <option value="costa_rica">Costa Rica</option>
+            <option value="croatia">Croatia</option>
+            <option value="cuba">Cuba</option>
+            <option value="cyprus">Cyprus</option>
+            <option value="czech_republic">Czech Republic</option>
+            <option value="denmark">Denmark</option>
+            <option value="djibouti">Djibouti</option>
+            <option value="dominica">Dominica</option>
+            <option value="dominican_republic">Dominican Republic</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="egypt">Egypt</option>
+            <option value="el_salvador">El Salvador</option>
+            <option value="equatorial_guinea">Equatorial Guinea</option>
+            <option value="eritrea">Eritrea</option>
+            <option value="estonia">Estonia</option>
+            <option value="eswatini">Eswatini</option>
+            <option value="ethiopia">Ethiopia</option>
+            <option value="fiji">Fiji</option>
+            <option value="finland">Finland</option>
+            <option value="france">France</option>
+            <option value="gabon">Gabon</option>
+            <option value="gambia">Gambia</option>
+            <option value="georgia">Georgia</option>
+            <option value="germany">Germany</option>
+            <option value="ghana">Ghana</option>
+            <option value="greece">Greece</option>
+            <option value="grenada">Grenada</option>
+            <option value="guatemala">Guatemala</option>
+            <option value="guinea">Guinea</option>
+            <option value="guinea_bissau">Guinea-Bissau</option>
+            <option value="guyana">Guyana</option>
+            <option value="haiti">Haiti</option>
+            <option value="honduras">Honduras</option>
+            <option value="hungary">Hungary</option>
+            <option value="iceland">Iceland</option>
+            <option value="india">India</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="iran">Iran</option>
+            <option value="iraq">Iraq</option>
+            <option value="ireland">Ireland</option>
+            <option value="israel">Israel</option>
+            <option value="italy">Italy</option>
+            <option value="jamaica">Jamaica</option>
+            <option value="japan">Japan</option>
+            <option value="jordan">Jordan</option>
+            <option value="kazakhstan">Kazakhstan</option>
+            <option value="kenya">Kenya</option>
+            <option value="kiribati">Kiribati</option>
+            <option value="korea_north">Korea (North)</option>
+            <option value="korea_south">Korea (South)</option>
+            <option value="kuwait">Kuwait</option>
+            <option value="kyrgyzstan">Kyrgyzstan</option>
+            <option value="laos">Laos</option>
+            <option value="latvia">Latvia</option>
+            <option value="lebanon">Lebanon</option>
+            <option value="lesotho">Lesotho</option>
+            <option value="liberia">Liberia</option>
+            <option value="libya">Libya</option>
+            <option value="liechtenstein">Liechtenstein</option>
+            <option value="lithuania">Lithuania</option>
+            <option value="luxembourg">Luxembourg</option>
+            <option value="madagascar">Madagascar</option>
+            <option value="malawi">Malawi</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="maldives">Maldives</option>
+            <option value="mali">Mali</option>
+            <option value="malta">Malta</option>
+            <option value="marshall_islands">Marshall Islands</option>
+            <option value="mauritania">Mauritania</option>
+            <option value="mauritius">Mauritius</option>
+            <option value="mexico">Mexico</option>
+            <option value="micronesia">Micronesia</option>
+            <option value="moldova">Moldova</option>
+            <option value="monaco">Monaco</option>
+            <option value="mongolia">Mongolia</option>
+            <option value="montenegro">Montenegro</option>
+            <option value="morocco">Morocco</option>
+            <option value="mozambique">Mozambique</option>
+            <option value="myanmar">Myanmar</option>
+            <option value="namibia">Namibia</option>
+            <option value="nauru">Nauru</option>
+            <option value="nepal">Nepal</option>
+            <option value="netherlands">Netherlands</option>
+            <option value="new_zealand">New Zealand</option>
+            <option value="nicaragua">Nicaragua</option>
+            <option value="niger">Niger</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="north_macedonia">North Macedonia</option>
+            <option value="norway">Norway</option>
+            <option value="oman">Oman</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="palau">Palau</option>
+            <option value="panama">Panama</option>
+            <option value="papua_new_guinea">Papua New Guinea</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="peru">Peru</option>
+            <option value="philippines">Philippines</option>
+            <option value="poland">Poland</option>
+            <option value="portugal">Portugal</option>
+            <option value="qatar">Qatar</option>
+            <option value="romania">Romania</option>
+            <option value="russia">Russia</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="saint_kitts_and_nevis">Saint Kitts and Nevis</option>
+            
+        </select>
+    </div>
+
+    <!-- part six -->
+        <p class="paragraph role">6. Country of Eligibility for the DV Program</p>
+         <div class="eligible role">
+            <p>Your country of eligibility will normally be the same as your country of birth. Your country of eligibility is NOT 
+                related to where you live. If you were born in a country that is not eligible for the DV program, please go to 
+                <a href="#"> Explanation of Country of Eligibility </a>to see if there is another option available in your case.</p>
+                <small>Are you claiming eligibility based on the country where you were born? <br>
+                   <b>Yes	No</b> 
+                    </small>
+
+                    <label for="#">If not, you must enter the country from which you are claiming eligibility.</label> <br>
+                    <input type="d" placeholder="Select A country">
+                    <option value="" disabled selected hidden>Select A Country...</option>
+            </div>
+
+            <!-- part seven -->
+             <p class="paragraph role">7. Entrant Photograph </p>
+         <div class="eligible role">
+            <p>Photographs must be submitted at the time of eDV entry. Photographs that do not comply with all specifications, including but not limited to recency of the photos (must be taken in the last six months), composition of the photos, and unacceptable backgrounds are grounds 
+                for disqualification of the entire entry. Any manipulation of photographs that alters the facial characteristics is grounds for disqualification of the entire entry. See examples on the 
+                <a href="#">Photo Exmple </a> page.</p>
+                <small>Please refer to the Instructions for the 2026 Diversity Immigrant Visa program (DV-2026) for technical specifications and compositional specifications 
+                    for the digital image.<br>
+                    </small>
+                    <p>You will use one of the following methods to enter the image into eDV:</p>
+                    <ul>
+                        <li>Take a new digital image.</li>
+                        <li>Use a digital scanner to scan a recent photograph.</li>
+                    </ul>
+
+                    <br>
+                    <i>Clicking the 'Choose New Photo' button will allow you to look for and choose the file which is storing the photograph. Once chosen, the file name and the photo will display. If the photo is not correct, 
+                        please click on the 'Choose New Photo' button to choose a new file.</i>
+                    
+                        <br>
+                        <a href="#">Link to Photo Instructions/Photo Examples page</a>
+                        <br>
+                        <form action="upload.php" method="POST" enctype="multipart/form-data">
+                            <label for="file">Choose a file:</label>
+                            <input type="file" id="file" name="file" required>
+                            <br><br>
+                        </form>
+            </div>
+
+
+
+            <!-- footer -->
+             <footer class="footer"  style="background-color: #ddd; color: #000; height: 20vh;">
+
+                <p> &copy; All rights are reserved || <b>sonkor</b> </p>
+                <small>good lucky</small>
+
+             </footer>
+    </body>
+</html>
