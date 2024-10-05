@@ -166,4 +166,8 @@ a:hover{
         width: 100%;
         padding: 0px 10px;
     }
+    .btn .input {
+        background-color: #ddd;
+        width: 100%;
+    }
 }
