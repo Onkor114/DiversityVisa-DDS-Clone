@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: greenyellow;
+    background-color: rgba(0, 134, 11, 0.76);
 }
 .top .menu {
     display: flex;
